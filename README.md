@@ -11,6 +11,18 @@ Summary: Simple and extensible admin interface framework for Flask
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-admin-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-admin-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-admin-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-admin-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-admin-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-admin-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-admin/badges/version.svg)](https://anaconda.org/conda-forge/flask-admin)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-admin/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-admin)
+
 Installing flask-admin
 ======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `flask-admin` available on your pl
 ```
 conda search flask-admin --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-admin-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-admin-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-admin-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-admin-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-admin-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-admin-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-admin/badges/version.svg)](https://anaconda.org/conda-forge/flask-admin)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-admin/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-admin)
 
 
 Updating flask-admin-feedstock
