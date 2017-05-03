@@ -1,18 +1,18 @@
-{%set name = "Flask-Admin" %}
-{%set version = "1.5.0" %}
-{%set compress_type = "tar.gz" %}
-{%set hash_type = "sha256" %}
-{%set hash_val = "fe3a96d99f22e293cd7e83d364de6cffd36573ef25db93d6e32102527a624bc5" %}
-{%set build_num = "0" %}
+{% set name = "Flask-Admin" %}
+{% set version = "1.5.0" %}
+{% set bundle = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash = "88618750e08ceee1ab232a5a9ebcef31275db5db1c0b56db29e014c24c7067a4" %}
+{% set build = 0 %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  {{ hash_type }}: {{ hash_val }}
+  fn: {{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  {{ hash_type }}: {{ hash }}
 
 build:
   number: {{ build_num }}
@@ -53,8 +53,8 @@ test:
 
 about:
   home: https://github.com/flask-admin/flask-admin/
-  license: BSD 3-Clause
   license_file: LICENSE
+  license: BSD 3-Clause
   license_family: BSD
   summary: 'Simple and extensible admin interface framework for Flask'
   doc_url: https://flask-admin.readthedocs.io/en/latest/
