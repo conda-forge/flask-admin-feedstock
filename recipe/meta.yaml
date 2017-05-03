@@ -1,5 +1,5 @@
 {% set name = "Flask-Admin" %}
-{% set version = "1.5.0" %}
+{% set version = "1.4.1" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "88618750e08ceee1ab232a5a9ebcef31275db5db1c0b56db29e014c24c7067a4" %}
