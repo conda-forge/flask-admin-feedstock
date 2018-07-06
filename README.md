@@ -14,14 +14,15 @@ Summary: Simple and extensible admin interface framework for Flask
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-admin-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-admin-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-admin-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-admin-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-admin-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-admin-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/flask-admin-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/flask-admin-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-admin/badges/version.svg)](https://anaconda.org/conda-forge/flask-admin)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-admin/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-admin)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flask--admin-green.svg)](https://anaconda.org/conda-forge/flask-admin) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flask-admin.svg)](https://anaconda.org/conda-forge/flask-admin) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flask-admin.svg)](https://anaconda.org/conda-forge/flask-admin) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flask-admin.svg)](https://anaconda.org/conda-forge/flask-admin) |
 
 Installing flask-admin
 ======================
