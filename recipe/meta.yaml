@@ -1,8 +1,8 @@
 {% set name = "Flask-Admin" %}
-{% set version = "1.5.3" %}
+{% set version = "1.5.2" %}
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_val = "ca0be6ec11a6913b73f656c65c444ae5be416c57c75638dd3199376ce6bc7422" %}
+{% set hash_val = "752937f4af1f6600e5f4f08586c4790719a71146f163a091deba04706a48523b" %}
 
 package:
   name: {{ name|lower }}
@@ -62,3 +62,4 @@ about:
 extra:
   recipe-maintainers:
     - pmlandwehr
+    - xylar
