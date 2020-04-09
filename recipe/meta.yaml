@@ -51,7 +51,7 @@ test:
 
 about:
   home: https://github.com/flask-admin/flask-admin/
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   license_family: BSD
   summary: Simple and extensible admin interface framework for Flask
