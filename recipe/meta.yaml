@@ -1,7 +1,7 @@
 {% set name = "Flask-Admin" %}
-{% set version = "1.5.6" %}
+{% set version = "1.5.7" %}
 {% set compress_type = "tar.gz" %}
-{% set hash_val = "68c761d8582d59b1f7702013e944a7ad11d7659a72f3006b89b68b0bd8df61b8" %}
+{% set hash_val = "145f59407d78319925e20f7c3021f60c71f0cacc98e916e52000845dc4c63621" %}
 
 package:
   name: {{ name|lower }}
