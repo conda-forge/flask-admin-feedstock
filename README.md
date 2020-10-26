@@ -3,13 +3,15 @@ About flask-admin
 
 Home: https://github.com/flask-admin/flask-admin/
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flask-admin-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simple and extensible admin interface framework for Flask
 
+Development: https://github.com/flask-admin/flask-admin/
 
+Documentation: https://flask-admin.readthedocs.io/en/latest/
 
 Current build status
 ====================
