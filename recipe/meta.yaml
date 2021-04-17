@@ -18,29 +18,17 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.3
     - pip
 
   run:
-    - python
+    - python >=3.3
     - flask >=0.7
     - wtforms
-    # Required for flask_admin.contrib.appengine:
-    # - wtforms-appengine
-    # Required for flask_admin.contrib.geoa:
-    # - geoalchemy2
-    # - shapely
-    # Required for flask_admin.contrib.mongoengine:
-    # - flask-mongoengine
-    # Required for flask_admin.contrib.peewee and flask_admin.contrib.peeweemodel:
-    # - peewee
-    # - wtf-peewee
-    #  Required for flask_admin.contrib.pymongo:
-    # - pymongo
-    # Required for flask_admin.contrib.sqla and flask_admin.contrib.sqlamodel:
-    # - sqlalchemy
 
 test:
+  requires:
+    - pip
   imports:
     - flask_admin
     - flask_admin.contrib
@@ -48,6 +36,8 @@ test:
     - flask_admin.form
     - flask_admin.model
     - flask_admin.translations
+  commands:
+    - pip check
 
 about:
   home: https://github.com/flask-admin/flask-admin/
