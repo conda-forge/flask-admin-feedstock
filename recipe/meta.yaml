@@ -12,23 +12,24 @@ source:
   sha256: {{ hash_val }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
 
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - flask >=0.7
     - wtforms
 
 test:
   requires:
     - pip
+    - python {{ python_min }}
   imports:
     - flask_admin
     - flask_admin.contrib
