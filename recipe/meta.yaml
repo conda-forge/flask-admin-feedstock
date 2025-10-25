@@ -1,7 +1,5 @@
 {% set name = "Flask-Admin" %}
 {% set version = "2.0.0" %}
-{% set compress_type = "tar.gz" %}
-{% set hash_val = "c5878ab1ea92c9e8345c0e1a2cd15851f5ecf2e1616d7fb9158487769f188e81" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') | lower }}-{{ version }}.tar.gz
-  sha256: {{ hash_val }}
+  sha256: c5878ab1ea92c9e8345c0e1a2cd15851f5ecf2e1616d7fb9158487769f188e81
 
 build:
   number: 0
