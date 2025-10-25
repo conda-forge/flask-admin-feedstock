@@ -1,18 +1,18 @@
 {% set name = "Flask-Admin" %}
-{% set version = "1.6.1" %}
+{% set version = "2.0.0" %}
 {% set compress_type = "tar.gz" %}
-{% set hash_val = "24cae2af832b6a611a01d7dc35f42d266c1d6c75a426b869d8cb241b78233369" %}
+{% set hash_val = "c5878ab1ea92c9e8345c0e1a2cd15851f5ecf2e1616d7fb9158487769f188e81" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') | lower }}-{{ version }}.tar.gz
   sha256: {{ hash_val }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
