@@ -20,11 +20,16 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
+    - flit_core <4
   run:
     - python >={{ python_min }}
-    - flask >=0.7
-    - wtforms
+    - flask >=2.0
+    - jinja2 >=3.0
+    - markupsafe >=2.0
+    - werkzeug >=2.0
+    - wtforms >=2.3
+    # for all python to stay noarch:python
+    - typing_extensions
 
 test:
   requires:
