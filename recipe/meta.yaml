@@ -1,5 +1,5 @@
 {% set name = "Flask-Admin" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') | lower }}-{{ version }}.tar.gz
-  sha256: ab83a435942c2a6af83e80f306b18786e459887564a18cb8fb45c31af8a4929b
+  sha256: 1d06aec7efee957972b43f6b08a0bd08d5f4cf9a337d4ece2f17c98abc2a214e
 
 build:
   number: 0
