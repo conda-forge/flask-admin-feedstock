@@ -5,7 +5,7 @@
 
 [workspace]
 name = "flask-admin-feedstock"
-version = "3.61.1"  # conda-smithy version used to generate this file
+version = "3.61.2"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/flask-admin-feedstock"
 authors = ["@conda-forge/flask-admin"]
 channels = ["conda-forge"]
