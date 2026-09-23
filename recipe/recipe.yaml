@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: Flask-Admin
-  version: "2.2.0"
+  version: "2.2.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') | lower }}-${{ version }}.tar.gz
-  sha256: 4a5b844789c10076da89320563600a7addf781e73ab315ae800521b3ec018509
+  sha256: 08b4b6b63d2100598add70c1dc9a695f484e3c16c894c09ac70af26acb26a87d
 
 build:
   number: 0
