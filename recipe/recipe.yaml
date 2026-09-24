@@ -29,8 +29,6 @@ requirements:
     - markupsafe >=2.0
     - werkzeug >=2.0
     - wtforms >=2.3
-    # for all python to stay noarch:python
-    - typing_extensions
 
 tests:
   - python:
@@ -42,7 +40,9 @@ tests:
         - flask_admin.model
         - flask_admin.translations
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
 
 about:
   license: BSD-3-Clause
